@@ -23,8 +23,6 @@ public class Main {
                     stats[4] += 1;
             }
 
-            System.out.println(Arrays.toString(stats));
-
             printBarGraph(scores, stats);
 
         } catch (BadInput exception) {
